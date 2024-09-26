@@ -53,7 +53,9 @@ function Download(){window.location.href = 'assets/CV.pdf';}
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Mobile Developer","Software Developer","Web Developer"],
+  strings : ["Consultant SAP","Développeur Logiciel","Développeur Web"],
+  
+  
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
