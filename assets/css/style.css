@@ -392,7 +392,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: var(--second-color);
+    
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -408,6 +408,54 @@ h3{
     color: var(--color-white);
     z-index: 2;
 }
+
+
+
+
+.project-bo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 550px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+.project-bo>i{
+    font-size: 50px;
+    color: #00B5E7;
+    margin-bottom: 1px;
+}
+.project-bo label{
+    font-size: 15px;
+    color: #777;
+    margin: 5px;
+}
+.project-bo::after, .contact-info::after{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 1;
+}
+.project-bo:hover.project-bo::after,
+.contact-info:hover.contact-info::after{
+    bottom: 0;
+}
+.project-bo:hover.project-bo i,
+.project-bo:hover.project-bo>h3,
+.project-bo:hover.project-bo>label{
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
