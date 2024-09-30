@@ -12,11 +12,11 @@
 
     <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Portfolio | OUARKA NABIL</title>
 </head>
 <body>
-   <div class="container">
+   <div class="">
     <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
@@ -153,19 +153,77 @@
           </div>
        </section>
      <!-- -------------- PROJECT BOX ---------------- -->
+    <div class="w-full"><section>
+        <div class="bg-transparent text-black ">
+        <div class="container mx-auto  flex flex-col items-start md:flex-row my-12 md:my-24">
+          <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+            <p class="ml-2 text-yellow-900 uppercase tracking-loose"></p>
+            <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Expériences professionnelles</p>
+            
+            <a href="#about"
+            class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+            Mes compétences</a>
+          </div>
+          <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+            <div class="container mx-auto w-full h-full">
+              <div class="relative wrap overflow-hidden p-10 h-full">
+                <div class="border-2-2 border-yellow-555 absolute h-full border"
+                  style="right: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+                <div class="border-2-2 border-yellow-555 absolute h-full border"
+                  style="left: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                  <div class="order-1 w-5/12"></div>
+                  <div class="order-1 w-5/12 px-1 py-4 text-right">
+                    <p class="mb-3 text-base text-yellow-300">MARS 2023 -JUIN 2023</p>
+                    <h4 class="mb-3 font-bold text-lg md:text-2xl">Stage, SKATYS</h4>
+                    <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
+                        
+Pour SKATYS, j'ai développé des thèmes et plugins WordPress, assuré la maintenance et les mises à jour du site, géré son contenu et proposé des améliorations via des outils d'analyse. J'ai aussi contribué à l'implémentation de fonctionnalités SAP Business One.
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                  <div class="order-1 w-9/12"></div>
+                  <div class="order-1  w-8/12 px-1 py-4 text-left">
+                    <p class="mb-3 text-base text-yellow-300">JUILLET 2023 - Présent </p>
+                    <h4 class="mb-3 font-bold text-lg md:text-2xl">TEMPS PLEIN, SKATYS</h4>
+                    <p class="text-sm md:text-base leading-snug text-black text-opacity-100">
+                      
+En tant que consultant technique SAP, j'ai personnalisé SAP pour répondre aux besoins clients, ajouté des conditions et géré l'approbation des documents dans le workflow. J'ai développé des services web, optimisé les programmes ABAP et participé aux tests pour assurer la qualité. J'ai également rédigé des documentations et formé les utilisateurs finaux sur les nouvelles fonctionnalités SAP.
+                    </p>
+                  </div>
+                </div>
 
-     <section class="section" id="projects">
-        <div class="top-header">
-            <h1>Formations</h1>
-        <ul>
-            <p>LP DÉVELOPPEMENT WEB, MOBILE & DIGITAL
-                UNIVERSITÉ SORBONNE-PARIS-NORD & IFIAG (2023-2024)
-            </p>
-            <p>DTS DEVELOPPEMENT DIGITALE WEB FULL STACK
-                ISFO OFPPT ROUTE AÉROPORT (2021-2023)
-                </p>
-            <p>BAC SCIENCES PHYSIQUE OPTION FRANÇAIS (GS GEORGE CLEMENCEAU 2019-2020)</p>
-        </ul></br></br>
+              </div>
+              <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </section></div>
+      <section class="section" id="projects">
+        <div class="top-header"><h1>Formations</h1></br>
+<ul>
+    
+    <li style="--accent-color:#E24A68">
+        <div class="date">LP DÉVELOPPEMENT WEB, MOBILE & DIGITAL</div>
+        <div class="title"></div>
+        <div class="descr">UNIVERSITÉ SORBONNE-PARIS-NORD & IFIAG</div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">DTS DEVELOPPEMENT DIGITALE WEB FULL STACK</div>
+        <div class="title"></div>
+        <div class="descr">ISFO OFPPT ROUTE AÉROPORT (2021-2023)</div>
+    </li>
+    <li style="--accent-color:#4CADAD">
+        <div class="date">BAC SCIENCES PHYSIQUE OPTION FRANÇAIS</div>
+        <div class="title"></div>
+        <div class="descr">GS GEORGE CLEMENCEAU (2019-2020)</div>
+    </li>
+</ul>
+     
+            
+</br></br>
         <h1>Certifications</h1>
         <ul>
             <p>Discovering SAP Business Technology Platform
@@ -174,95 +232,70 @@
             <p>Composing and automating with SAP Build the No-Code Way     ( SAP )
                 </p>
             <p>BPCAP - Certified Associate in Python ( PYTHON INSTITUE & CISCO )</p>
-        </ul></br>
-        <h1>Expériences professionnelles </h1></div>
-        <ul>
-            <li><b>Consultant technique SAP junior  </b>  ( JUILLET 2023 - EN COURS )</br>SKATYS, TEMPS PLEIN</br>
-            </br><ul>
-                    <li>Adaptation et personnalisation de SAP en collaboration avec l’équipe fonctionnelle
-                        pour satisfaire les exigences spécifiques des clients.</li>
-                    <li>Ajout de conditions préalables et gestion de l'approbation des documents dans le
-                        workflow flexible.</li>
-                    <li>Développement et implémentation de services web.</li>
-                    <li>Amélioration des performances des programmes ABAP existants.</li>
-                    
-                    <li>Rédaction de documentation technique et de guides d'utilisation.</li>
-                    <li>Formation et support des utilisateurs finaux sur les nouvelles fonctionnalités SAP.</li>
-                    <li>Participation aux tests unitaires et d'intégration pour assurer la qualité des
-                        développements</li></br><p><b>PROJET:</br></b>
-                            MARSA MAROC (Implémentation SAP S4/HANA )</br>
-                            NETIS GROUPE (Implémentation SAP S4/HANA public cloud )</br>
-                            TANGER MED (Implémentation SAP S4/HANA )</br>
-                            WAFA ASSURANCE - FEDEX - AUDA - LAPROPHAN - ANH (TMA - SUPPORT)</p></br></br>
-         
-
-            </ul>
-            </li>
-            <li><b>DÉVELOPPEUR FULL STACK & SAP  </b>( MARS 2023 - JUIN 2023 )</br>SKATYS, STAGE</li></br>
-            <ul>
-                <li>Personnaliser et développer des thèmes et des plugins WordPress pour
-répondre aux besoins de l’entreprise SKATYS .</li>
-                <li>Assurer la maintenance continue de site web, en appliquant les mises à jour de
-sécurité et en résolvant les problèmes techniques.</li>
-                <li>Gérer et mettre à jour régulièrement le contenu de site web.</li>
-                <li>Utiliser des outils d'analyse pour suivre les performances des sites web et
-proposer des améliorations.</li>
-
-                
-                <li>Contribuer à la mise en place de fonctionnalités SAP Business One au sein de
-                l'équipe technique</li>
-            </ul>
         </ul>
+
     </div>
 
 
 
        <!-- -------------- PROJECT BOX ---------------- -->
 
+
        <section class="section" id="projects">
           <div class="top-header">
               <h1>Projets</h1>
           </div>
-          <div class="project-container">
-            <div class="project-box">
-                <img src="assets/images/netis.jpeg" height="250px">
-            </div>
-            <div class="project-box">
-                <img src="assets/images/marsa.png" height="250px">
-            </div>
-            <div class="project-box">
-                <img src="assets/images/tanger.png" height="">
-            </div>
-          </div>
-       </section>
-       <div class="top-header">
-    </div>
-    <div class="project-container">
-      <div class="project-bo">
-          <h3>Projet Netis</h3>
+          <div class = "containere " style="    display : flex;
+          align-items : center;
+          justify-content : center;
+          flex-wrap : warp;">
+           <div class = "carde" style="width: 600px;">
+             <div class = imagee>
+               <img href = "#" src ="assets/images/netis.jpeg" >
+             </div>
+             <div class = content>
+                <h3>Projet Netis</h3>
           <label><b>Description et Contexte :</b> Ce projet visait à implémenter SAP S/4HANA chez Netis pour améliorer la gestion des processus financiers et logistiques. L'objectif était d'automatiser les opérations clés et de permettre une meilleure visibilité des données en temps réel.
             </br><b>Cadre du Projet :</b> Réalisé dans le cadre de mon rôle de consultant technique SAP au sein de mon entreprise.
         </br><b>Rôle et Tâches :</b> En tant que consultant technique, j'ai participé à la configuration de SAP S/4HANA, en particulier sur les modules MM (Gestion des matériaux) et SD (Ventes et distribution). J'ai également développé des interfaces web pour faciliter l'intégration avec des systèmes tiers et assuré le support technique.
         </br><b>Technologies et Outils :</b> SAP S/4HANA, Web Services, ABAP, Fiori, SAP HANA Database.
         </br><b>Étapes de Réalisation :</b> Le projet s'est déroulé en plusieurs étapes : analyse des besoins, prototypage des solutions, développement, tests utilisateurs, et mise en production. J'ai également optimisé les performances des systèmes en collaboration avec les équipes de Netis.</label>
-      </div>
-      <div class="project-bo">
-        <h3>Projet Marsa Maroc</h3>
-        <label><b>Description et Contexte :</b> Le projet chez Marsa Maroc consistait en une transformation digitale majeure avec l'implémentation de SAP S/4HANA pour automatiser la gestion portuaire, de la facturation aux inventaires.
-        </br><b>Cadre du Projet :</b> Ce projet a été réalisé dans le cadre de mon activité professionnelle en tant que consultant technique SAP.
-        </br><b>Rôle et Tâches :</b> Mon rôle a consisté à superviser l'intégration technique du module SAP FI-CO et à coordonner la migration des données depuis les anciens systèmes. J'ai également été responsable de la création de rapports dynamiques sur SAP HANA.
-        </br><b>Technologies et Outils :</b> SAP S/4HANA, SAP FI-CO, SAP HANA, SAP Data Services.
-        </br><b>Étapes de Réalisation :</b> Le projet a suivi un cycle structuré : planification, migration des données, tests de performance, mise en production, suivi post-implémentation. J'ai résolu des problèmes complexes liés à la compatibilité des anciens systèmes avec SAP HANA.</label>
+      
+            </div>
+           </div>  
+           <div class = "carde" style="width: 600px;">
+               <div class = imagee>
+                 <img href = "#" src ="assets/images/marsa.png" >
+               </div>
+               <div class = content>
+                <h3>Projet Marsa Maroc</h3>
+                <label><b>Description et Contexte :</b> Le projet chez Marsa Maroc consistait en une transformation digitale majeure avec l'implémentation de SAP S/4HANA pour automatiser la gestion portuaire, de la facturation aux inventaires.
+                </br><b>Cadre du Projet :</b> Ce projet a été réalisé dans le cadre de mon activité professionnelle en tant que consultant technique SAP.
+                </br><b>Rôle et Tâches :</b> Mon rôle a consisté à superviser l'intégration technique du module SAP FI-CO et à coordonner la migration des données depuis les anciens systèmes. J'ai également été responsable de la création de rapports dynamiques sur SAP HANA.
+                </br><b>Technologies et Outils :</b> SAP S/4HANA, SAP FI-CO, SAP HANA, SAP Data Services.
+                </br><b>Étapes de Réalisation :</b> Le projet a suivi un cycle structuré : planification, migration des données, tests de performance, mise en production, suivi post-implémentation. J'ai résolu des problèmes complexes liés à la compatibilité des anciens systèmes avec SAP HANA.</label>
+            
+            </div>
+             </div>  
+             
+           <div class = carde style="width: 540px;">
+               <div class = imagee>
+                 <img href = "#" src =assets/images/tanger.png >
+               </div>
+               <div class = content>
+                <h3>Projet Tanger Med</h3>
+                <label><b>Description et Contexte :</b> Tanger Med, un des plus grands ports d'Afrique, a entrepris un projet d'optimisation de la gestion logistique grâce à SAP S/4HANA. L'objectif était d'améliorer la gestion des flux et des stocks.
+                </br><b>Cadre du Projet :</b> Projet réalisé au sein de mon entreprise en tant que consultant SAP.
+                </br><b>Rôle et Tâches : </b>J'ai joué un rôle central dans l'intégration du module SAP EWM (Extended Warehouse Management) avec les systèmes de gestion d'entrepôts existants. J'ai également mené des ateliers de formation pour les utilisateurs finaux.
+                </br><b>Technologies et Outils :</b> SAP S/4HANA, SAP EWM, SAP Fiori, SAPUI5.
+                </br><b>Étapes de Réalisation :</b> Ce projet s'est articulé autour de plusieurs phases : conception, intégration, tests d'acceptation, mise en production. J'ai contribué à l'optimisation des processus logistiques en intégrant des solutions de traçabilité en temps réel.</label>
+            </div>
+             </div>  
+         </div>
+       </section>
+       <div class="top-header">
     </div>
-    <div class="project-bo">
-        <h3>Projet Tanger Med</h3>
-        <label><b>Description et Contexte :</b> Tanger Med, un des plus grands ports d'Afrique, a entrepris un projet d'optimisation de la gestion logistique grâce à SAP S/4HANA. L'objectif était d'améliorer la gestion des flux et des stocks.
-        </br><b>Cadre du Projet :</b> Projet réalisé au sein de mon entreprise en tant que consultant SAP.
-        </br><b>Rôle et Tâches : </b>J'ai joué un rôle central dans l'intégration du module SAP EWM (Extended Warehouse Management) avec les systèmes de gestion d'entrepôts existants. J'ai également mené des ateliers de formation pour les utilisateurs finaux.
-        </br><b>Technologies et Outils :</b> SAP S/4HANA, SAP EWM, SAP Fiori, SAPUI5.
-        </br><b>Étapes de Réalisation :</b> Ce projet s'est articulé autour de plusieurs phases : conception, intégration, tests d'acceptation, mise en production. J'ai contribué à l'optimisation des processus logistiques en intégrant des solutions de traçabilité en temps réel.</label>
-    </div>
-</div>
+
        <!-- -------------- CONTACT BOX ---------------- -->
 
        <section class="section" id="contact">
